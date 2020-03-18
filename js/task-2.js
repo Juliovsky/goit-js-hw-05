@@ -6,10 +6,9 @@ class User {
         this.age = age;
         this.followers = followers;
     }
-}
-
-User.prototype.getInfo = function(name, age, followers){
-    console.log(`User ${this.name} is ${this.age} years old and has ${this.followers} followers`);
+    getInfo(name, age, followers){
+        console.log(`User ${this.name} is ${this.age} years old and has ${this.followers} followers`);
+    }
 }
 
 const mango = new User({

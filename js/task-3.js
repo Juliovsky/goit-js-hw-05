@@ -1,7 +1,7 @@
 "use strict";
 class Storage {
-    constructor(itms) {
-        this.items = itms;
+    constructor(array) {
+        this.items = array;
     };
 
     getItems() {
